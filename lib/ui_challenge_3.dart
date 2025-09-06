@@ -55,7 +55,7 @@ class _UiChallenge3State extends State<UiChallenge3> {
                   children: [
                     SizedBox(width: 18),
                     Text(
-                      'Flutter4Fun.com',
+                      'Mis motos favoritas',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18,

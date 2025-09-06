@@ -63,10 +63,10 @@ class _HeroDetailsPageState extends State<HeroDetailsPage> {
               children: [
                 _HeroDetailsImage(widget.hero),
                 _HeroDetailsName(widget.hero.name),
-                const Padding(
+                Padding(
                   padding: EdgeInsets.symmetric(horizontal: 22.0, vertical: 12),
                   child: Text(
-                    "Super smash bros ultimate villagers from the animal crossing series. This troops fight most effectively in large group",
+                    widget.hero.description,
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 18,
@@ -95,7 +95,7 @@ class _HeroDetailsPageState extends State<HeroDetailsPage> {
                           ),
                           onPressed: () {},
                           child: const Text(
-                            'Add Favourite',
+                            'Saber más',
                             style: TextStyle(color: Colors.white, fontSize: 12),
                           ),
                         ),
@@ -162,7 +162,7 @@ class _HeroDetailsPageState extends State<HeroDetailsPage> {
                       },
                     ),
                     const Text(
-                      'Overview',
+                      'Detalles',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,
