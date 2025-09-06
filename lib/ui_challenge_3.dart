@@ -76,7 +76,10 @@ class _UiChallenge3State extends State<UiChallenge3> {
         ),
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xffFF6958), Color(0xffC358ED)],
+            colors: [
+              Color.fromARGB(255, 6, 143, 207),
+              Color.fromARGB(255, 2, 61, 95),
+            ],
             begin: Alignment(0.3, -1),
             end: Alignment(-0.8, 1),
           ),

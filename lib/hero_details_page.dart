@@ -47,7 +47,10 @@ class _HeroDetailsPageState extends State<HeroDetailsPage> {
         height: double.infinity,
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xFFF4E342), Color(0xFFEE3474)],
+            colors: [
+              Color.fromARGB(255, 7, 14, 215),
+              Color.fromARGB(255, 0, 11, 47),
+            ],
             begin: Alignment(0.3, -1),
             end: Alignment(-0.8, 1),
           ),
@@ -115,7 +118,10 @@ class _HeroDetailsPageState extends State<HeroDetailsPage> {
                           child: Ink(
                             decoration: BoxDecoration(
                               gradient: const LinearGradient(
-                                colors: [Color(0xFFF29758), Color(0xFFEF5D67)],
+                                colors: [
+                                  Color.fromARGB(255, 7, 214, 221),
+                                  Color.fromARGB(255, 5, 5, 179),
+                                ],
                                 begin: Alignment.topCenter,
                                 end: Alignment.bottomCenter,
                               ),

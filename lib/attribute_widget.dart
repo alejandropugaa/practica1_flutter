@@ -39,7 +39,7 @@ class AttributePainter extends CustomPainter {
     this.strokeWidth = 2.0,
     this.filledStrokeWidth = 4.0,
   }) : bgPaint = Paint()..color = Colors.white.withOpacity(0.25),
-       strokeBgPaint = Paint()..color = const Color(0xffD264C9),
+       strokeBgPaint = Paint()..color = const Color.fromARGB(255, 86, 203, 249),
        strokeFilledPaint = Paint()
          ..color = Colors.white
          ..style = PaintingStyle.stroke

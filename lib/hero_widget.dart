@@ -11,9 +11,9 @@ class HeroRowWidget extends StatelessWidget {
   final HeroModel hero;
   final double rowHeight;
 
-  final String speed = 'assets/speed.png';
-  final String heart = 'assets/heart.png';
-  final String knife = 'assets/knife.png';
+  final String speed = 'assets/velocidad.png';
+  final String heart = 'assets/piston.png';
+  final String knife = 'assets/llanta.png';
 
   const HeroRowWidget({Key? key, required this.hero, this.rowHeight = 282})
     : super(key: key);
